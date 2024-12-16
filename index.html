@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo juegos</title>
+
+     
+     
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <style>
+    .header-title {
+      text-shadow: -3px 3px 3px rgba(0, 0, 0, 0.3);
+      font-size: 1.8rem;
+    }
+    .nav-link img {
+      height: 24px;
+      margin-right: 8px;    
+      
+    }
+    .bg-custom-red {
+        background-color: #680202; /* Rojo brillante personalizado */
+    }   
+    
+
+
+
+    .header-title {
+      text-shadow: -3px 3px 3px rgba(0, 0, 0, 0.3);
+      font-size: 1.8rem;
+    }
+    .nav-link img {
+      height: 24px;
+      margin-right: 8px;
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+    .nav-link {
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    .nav-link:hover {
+      
+      transform: scale(1.1);
+      
+    }
+    .nav-link:hover img {
+      transform: scale(1.2);
+      filter: brightness(1.2);
+      
+    }
+   
+
+
+  
+    
+
+    body {
+      background-image: url('image/galaxia.jpg'); /* Cambia por tu imagen de fondo */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+    }
+
+
+    /* Estilos para los enlaces */
+    .footer a {
+          
+          text-decoration: none; /* Sin subrayado */
+      }
+      /* Hover para enlaces */
+      .footer a:hover {
+          border: solid black;
+          
+          background-color: blue;
+      }
+ 
+</style>
+
+
+  </style>
+</head>
+<body>
+  <header class="bg-custom-red text-black py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <!-- Título con sombra -->
+      <h1 class="header-title">Mundo Juegos</h1>
+
+      <!-- Enlaces en el medio -->
+      <nav class="d-flex align-items-center">
+        <a href="index.html" class="nav-link text-black d-flex align-items-center me-3">
+            <img src="https://img.icons8.com/ios-filled/50/home.png" alt="Inicio Logo">
+            Inicio
+          </a>
+        <a href="playstation.html" class="nav-link text-black d-flex align-items-center me-3">
+            <img src="image/play2.png   " alt="" style="height: 24px;">
+            Playstation
+          </a>
+        <a href="xbox.html" class="nav-link text-black d-flex align-items-center me-3">
+          <img src="https://img.icons8.com/ios-filled/50/xbox.png" alt="Xbox Logo">
+          Xbox
+        </a>
+        <a href="nintendo.html" class="nav-link text-black d-flex align-items-center me-3">
+          <img src="https://img.icons8.com/ios-filled/50/nintendo-switch.png" alt="Nintendo Logo">
+          Nintendo
+        </a>
+        <a href="pc.html" class="nav-link text-black d-flex align-items-center me-3">
+          <img src="https://img.icons8.com/ios-filled/50/computer.png" alt="PC Logo">
+          PC
+        </a>
+        <a href="descargas.html" class="nav-link text-black d-flex align-items-center">
+          <img src="https://img.icons8.com/ios-filled/50/download.png" alt="Descargas Logo">
+          Descargas
+        </a>
+      </nav>
+
+      <!-- Logos a la derecha -->
+      <div class="d-flex align-items-center">
+        <a href="https://www.youtube.com.pe" target="_blank" class="me-3">
+          <img src="https://img.icons8.com/ios-filled/50/youtube-play.png" alt="YouTube Logo" height="24">
+        </a>
+        <a href="https://www.google.com.pe/?hl=es" target="_blank">
+          <img src="https://img.icons8.com/ios-filled/50/google-logo.png" alt="Google Logo" height="24">
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <!-- Contenedor Principal -->
+  <div class="container mt-5">
+    <div class="text-center mb-4 text-danger" >
+      <h1 class="display-4">Bienvenidos a Las Ofertas de Este Mes</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maiores ratione deserunt tempora nihil nostrum?</p>
+    </div>
+
+    <div class="row align-items-center">
+      <!-- Carrusel -->
+      <div class="col-lg-8">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-description="Dark Souls es una serie de juegos de rol de acción creada por Hidetaka Miyazaki de FromSoftware y publicada por Bandai Namco Entertainment. La serie comenzó con el lanzamiento de Dark Souls en 2011 y ha visto dos secuelas, Dark Souls II en 2014 y Dark Souls III en 2016. Dark Souls ha recibido aclamación crítica, con el primer título a menudo citado como uno de los mejores videojuegos de todos los tiempos, y la serie en su conjunto ha sido tanto elogiada como criticada por su alto nivel de dificultad. Para 2022, la serie había enviado más de 33 millones de copias. Otros juegos de FromSoftware, incluyendo Demon's Souls, Bloodborne, Sekiro: Shadows Die Twice y Elden Ring, comparten varios conceptos relacionados y a menudo se agrupan juntos como «Soulsborn»">
+              <img src="image/Dark-Souls.jpg" class="d-block w-100" alt="Primera Imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item" data-description="Dark Souls II (ダークソウルツー Dāku Souru Tsū?) es un videojuego de rol de acción que tiene lugar en un mundo abierto, desarrollado para Microsoft Windows, PlayStation 3 y Xbox 360 por From Software. From Software también distribuye el juego en Japón, mientras que Namco Bandai Games lo hace para otras regiones.">
+              <img src="image/darksouls2.jpg" class="d-block w-100" alt="Segunda Imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item" data-description="Dark Souls III (ダークソウルIII, Dāku Souru Surī) es un videojuego de rol de acción desarrollado por FromSoftware y publicado por Bandai Namco Entertainment para PlayStation 4, Xbox One y Microsoft Windows. Es la tercera y última entrega en la saga Souls,1​ lanzándose en Japón el 24 de marzo de 2016, y de manera mundial en abril del mismo año.2​3​
+
+            Dark Souls III fue un éxito tanto de crítica como de ventas, con la crítica nombrando a este como un digno y adecuado final para la saga. Fue el juego de Bandai Namco que más rápido vendió en su historia,4​5​ alcanzando más de tres millones de copias en todo el mundo en menos de dos meses tras su lanzamiento6​y más de 10 millones en 20207​">
+              <img src="image/dark souls 3.jpg" class="d-block w-100" alt="Tercera Imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Descripción -->
+      <div class="col-lg-4">
+        <div class="overlay">
+          <h3>Descripción</h3>
+          <p id="dynamic-description">Dark Souls es una serie de juegos de rol de acción creada por Hidetaka Miyazaki de FromSoftware y publicada por Bandai Namco Entertainment. La serie comenzó con el lanzamiento de Dark Souls en 2011 y ha visto dos secuelas, Dark Souls II en 2014 y Dark Souls III en 2016. Dark Souls ha recibido aclamación crítica, con el primer título a menudo citado como uno de los mejores videojuegos de todos los tiempos, y la serie en su conjunto ha sido tanto elogiada como criticada por su alto nivel de dificultad. Para 2022, la serie había enviado más de 33 millones de copias. Otros juegos de FromSoftware, incluyendo Demon's Souls, Bloodborne, Sekiro: Shadows Die Twice y Elden Ring, comparten varios conceptos relacionados y a menudo se agrupan juntos como «Soulsborn»</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const carouselElement = document.getElementById('carouselExampleCaptions');
+    const descriptionElement = document.getElementById('dynamic-description');
+
+    // Actualiza la descripción dinámica cuando cambia la imagen del carrusel
+    carouselElement.addEventListener('slide.bs.carousel', function (event) {
+      const activeSlide = event.relatedTarget; // Slide al que se está moviendo
+      const newDescription = activeSlide.getAttribute('data-description');
+      descriptionElement.textContent = newDescription;
+    });
+  </script>
+ 
+
+ <main class="container my-5">
+  <div class="row align-items-center">
+    <!-- Imagen en el lado izquierdo -->
+    <div class="col-md-6">
+      <img src="image/serperior.jpg" alt="Imagen" class="img-fluid rounded shadow">
+    </div>
+    <!-- Formulario en el lado derecho -->
+    <div class="col-md-6">
+      <div class="p-4 border rounded shadow">
+        <h2 class="text-center text-danger mb-3" >Regístrate Aquí</h2>
+        <p class="text-danger text-center mb-4 ">¡Queremos conocerte! Completa este formulario y cuéntanos un poco más sobre ti.</p>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label ">Nombre</label>
+            <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="number" class="form-label">Número de Teléfono</label>
+            <input type="tel" class="form-control" id="number" placeholder="Tu número" required>
+          </div>
+          <div class="mb-3">
+            <label for="favoriteGame" class="form-label">Juego Favorito</label>
+            <input type="text" class="form-control" id="favoriteGame" placeholder="Tu juego favorito" required>
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo</label>
+            <input type="text" class="form-control" id="correo" placeholder="ejemplo@gmail.com" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+   <!-- Footer -->
+  <footer class="bg-custom-red text-white text-center text-md-start py-5 footer">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <!-- Columna 1: Información de la empresa -->
+            <div class="col-md-3 mb-4">
+                <h5>Acerca de Nosotros</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d1639.6623567669662!2d-76.92327972331312!3d-12.194260573186186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d-12.194798487742762!2d-76.92270909195605!5e0!3m2!1ses-419!2spe!4v1734342102262!5m2!1ses-419!2spe" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
+            <!-- Columna 2: Enlaces rápidos -->
+            <div class="col-md-3 mb-4">
+                <h5>Enlaces rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.elamigos-games.net" target="_blank" class="text-white">ElAmigos</a></li>
+                    <li><a href="https://gamesfull.app" target="_blank" class="text-white">Gamesfull</a></li>
+                    <li><a href="https://store.epicgames.com/es-ES/" target="_blank" class="text-white">Epicgames</a></li>
+                    <li><a href="https://store.steampowered.com/?l=spanish" target="_blank" class="text-white">Steam</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Redes sociales -->
+            <div class="col-md-3 mb-4">
+                <h5>Redes Sociales</h5>
+                <a href="https://es-la.facebook.com/login/device-based/regular/login/" class="text-white me-3"><i class="fab fa-facebook-f"></i> Facebook</a><br>
+                <a href="https://x.com/?lang=es" class="text-white me-3"><i class="fab fa-twitter"></i> Twitter</a><br>
+                <a href="https://www.instagram.com" class="text-white me-3"><i class="fab fa-instagram"></i> Instagram</a><br>
+                <a href="https://pe.linkedin.com" class="text-white me-3"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+
+            <!-- Columna 4: Contacto -->
+            <div class="col-md-3 mb-4">
+                <h5>Contacto</h5>
+                <p><i class="fas fa-envelope"></i> email@empresa.com</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-map-marker-alt"></i> Dirección, Ciudad, País</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
+
+</body>
+</html>
